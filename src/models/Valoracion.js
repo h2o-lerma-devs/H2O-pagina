@@ -45,7 +45,7 @@ const valoracionSchema = new mongoose.Schema({
       'La URL debe ser un link de Cloudinary'],
     trim: true,
     minItems: 0,
-    maxItems: 10,
+    maxItems: 3,
     unique: true
   },
 
